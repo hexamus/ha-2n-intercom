@@ -143,6 +143,15 @@ class TwoNAPI:
                 return await response.read()
         except aiohttp.ClientError as err:
             _LOGGER.error("Erreur lors de la capture d'image: %s", err)
+            raise": height}
+        try:
+            async with self.session.get(
+                url, auth=self.auth, params=params, timeout=aiohttp.ClientTimeout(total=10)
+            ) as response:
+                response.raise_for_status()
+                return await response.read()
+        except aiohttp.ClientError as err:
+            _LOGGER.error("Erreur lors de la capture d'image: %s", err)
             raise
 
     async def get_call_status(self) -> dict:
