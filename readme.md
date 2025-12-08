@@ -54,7 +54,7 @@ Intégration personnalisée pour Home Assistant permettant de contrôler les par
 4. Entrez les informations suivantes :
    - **Hôte** : Adresse IP de votre parlophone 2N
    - **Nom d'utilisateur** : Nom d'utilisateur de l'API (compte admin ou utilisateur avec droits API)
-   - **Mot de passe** : Mot de passe du compte
+   - **Mot de passe** : Mot de passe du compte (attention au caractère spéciaux)
    - **Port** : Port HTTP (par défaut : 80)
 
 ### Via configuration.yaml (legacy)
