@@ -32,7 +32,7 @@ Intégration personnalisée pour Home Assistant permettant de contrôler les par
 1. Ouvrez HACS dans Home Assistant
 2. Cliquez sur les trois points en haut à droite
 3. Sélectionnez "Dépôts personnalisés"
-4. Ajoutez l'URL de ce dépôt : `https://github.com/votre_username/ha-2n-intercom`
+4. Ajoutez l'URL de ce dépôt : `https://github.com/hexamus/ha-2n-intercom`
 5. Sélectionnez la catégorie "Integration"
 6. Cliquez sur "2N IP Intercom" dans la liste des intégrations
 7. Cliquez sur "Télécharger"
