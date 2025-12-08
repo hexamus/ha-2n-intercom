@@ -1,0 +1,34 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configuration 2N Intercom",
+        "description": "Configurez votre parlophone 2N IP Intercom",
+        "data": {
+          "host": "Adresse IP",
+          "username": "Nom d'utilisateur",
+          "password": "Mot de passe",
+          "port": "Port"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Impossible de se connecter au parlophone",
+      "invalid_auth": "Authentification invalide",
+      "unknown": "Erreur inconnue"
+    },
+    "abort": {
+      "already_configured": "Cet appareil est déjà configuré"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options 2N Intercom",
+        "data": {
+          "scan_interval": "Intervalle de mise à jour (secondes)"
+        }
+      }
+    }
+  }
+}
