@@ -41,7 +41,7 @@ Intégration personnalisée pour Home Assistant permettant de contrôler les par
 ### Installation manuelle
 
 1. Téléchargez les fichiers de ce dépôt
-2. Copiez le dossier `custom_components/2n_intercom` dans votre dossier `custom_components` de Home Assistant
+2. Copiez le dossier `custom_components/twon_intercom` dans votre dossier `custom_components` de Home Assistant
 3. Redémarrez Home Assistant
 
 ## ⚙️ Configuration
